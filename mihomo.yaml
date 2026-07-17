@@ -30,107 +30,107 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, alterId: 0, cipher: auto, tls: true, servername: emam-zamman1.nova-728119.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: emam-zamman1.nova-728119.workers.dev}}, udp: false}
-  - {name: "سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1", server: emam-zamman1.nova-728119.workers.dev, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /player/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2", server: 104.17.219.64, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /details/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3", server: 104.19.146.0, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /zh-cn/torrent/topic/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1", server: 104.18.33.146, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /archive/document/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2", server: 104.17.17.115, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /novels/forum/index/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3", server: 104.17.109.174, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /my/lessons/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1", server: 91.193.59.46, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /image/cart/tags/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2", server: 104.19.33.103, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /urls/cart/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3", server: 162.159.46.106, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /events/music/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1", server: 104.17.184.104, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /collect/streaming/doc/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2", server: 162.159.39.22, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /document/gif/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3", server: 8.35.211.74, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /comics/photo/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1", server: 104.17.114.140, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /china/live/films/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2", server: 173.245.58.121, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /blog/episode/bbs/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3", server: 104.16.247.15, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /list/res/html/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1", server: 8.39.125.227, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /favourites/store/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2", server: 162.159.44.50, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /document/project/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3", server: 104.17.18.37, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /blogs/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1", server: 198.41.223.138, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /movie/star/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2", server: 162.159.39.221, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /manhua/document/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3", server: 8.35.211.152, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /out/bd/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1", server: 8.39.125.89, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /episodes/img/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2", server: 104.19.51.249, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /feedback/seller/topic/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3", server: 104.17.163.124, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /player/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1", server: 104.17.108.26, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /urls/images/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2", server: 172.66.2.115, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /blog/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3", server: 162.159.46.41, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /doc/archive/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1", server: 8.39.125.43, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /groups/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2", server: 104.17.103.114, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /docs/data/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3", server: 104.17.171.78, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /html/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1", server: 104.17.101.154, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /study/team/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2", server: 172.67.68.190, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /edu/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3", server: 104.16.246.194, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /f/film/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1", server: 198.41.223.114, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /player/edu/m/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2", server: 162.159.41.66, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /my/clip/go.php/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3", server: 104.17.63.207, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /f/pics/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1", server: 104.17.153.104, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ad/pics/pic/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2", server: 172.67.66.146, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /thread/doujin/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3", server: 104.17.174.194, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /avatar/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1", server: 104.16.245.93, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /task/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2", server: 104.16.146.0, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /contact/images/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3", server: 104.19.151.91, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /activity/ajax/html/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1", server: 104.16.247.131, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /comic/setting/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2", server: 104.17.157.249, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /help/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3", server: 104.19.146.246, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /about/ajax/ad/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1", server: 104.17.16.10, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /forums/upload/user/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2", server: 104.17.155.194, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /play/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3", server: 173.245.59.65, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /watch/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1", server: 198.41.223.69, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /lives/pics/episode/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2", server: 108.162.198.127, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /data/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3", server: 104.17.183.128, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /list/events/feedback/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1", server: 104.19.33.187, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /services/courses/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2", server: 104.16.241.152, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /torrent/stock/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3", server: 173.245.59.190, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /source/wenku/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1", server: 104.19.32.54, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /pics/f/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2", server: 104.16.146.172, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /group/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3", server: 104.17.153.192, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /discuss/watch/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1", server: 91.193.59.19, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /zh-cn/tech/images/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2", server: 104.17.105.102, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /season/discount/show/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3", server: 173.245.58.97, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /help/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1", server: 198.41.223.241, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /act/html/doc/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2", server: 108.162.198.220, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /page/clips/bt/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3", server: 91.193.58.86, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /dh/jump/doc/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1", server: 162.159.36.4, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /account/photos/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2", server: 188.164.248.229, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /archive/map/zh-cn/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3", server: 188.164.248.21, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /play/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1", server: 104.17.189.246, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /channel/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2", server: 162.159.38.133, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /page/note/wenku/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3", server: 104.16.240.128, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /series/friend/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1", server: 91.193.58.142, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /links/task/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2", server: 162.159.39.100, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /playlist/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3", server: 91.193.58.27, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /list/links/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1", server: 104.17.101.194, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /temp/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2", server: 104.17.120.132, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /detail/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3", server: 198.41.208.228, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /users/hot/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1", server: 104.17.188.25, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /readme/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2", server: 108.162.198.56, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /feedback/thread/blogs/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3", server: 8.35.211.124, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /group/reg/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1", server: 104.19.145.150, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /bt/services/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2", server: 104.17.183.117, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /about/faq/dh/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3", server: 172.66.2.69, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /downloads/act/club/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1", server: 104.19.51.198, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /faq/album/blogs/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2", server: 173.245.59.145, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /document/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3", server: 172.66.1.87, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /films/vod/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1", server: 108.162.198.165, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /help/view/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2", server: 172.66.3.188, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /posts/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3", server: 104.17.104.221, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /special/tech/groups/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1", server: 104.17.149.164, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /cart/lib/ep/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2", server: 104.17.166.58, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /outbound/apps/u/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3", server: 104.17.28.153, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ranking/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1", server: 104.19.144.68, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /topic/setting/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2", server: 104.16.156.168, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /episode/movie/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3", server: 104.16.243.107, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /seller/playlist/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1", server: 162.159.38.152, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /source/list/lessons/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2", server: 104.17.21.230, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /resource/gif/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3", server: 104.19.146.202, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /event/directory/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1", server: 104.19.35.90, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /items/ajax/city/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2", server: 104.17.178.63, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /m/htm/doc/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3", server: 104.17.49.202, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /clip/programs/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1", server: 198.41.209.231, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /albums/p/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2", server: 172.67.76.22, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /site/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1", server: emam-zamman1.nova-728119.workers.dev, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /dload/urls/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2", server: 8.39.125.155, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /info/source/archives/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3", server: 188.164.248.126, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /stock/htm/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4", server: 104.17.145.112, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /download/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1", server: 198.41.223.105, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /events/channels/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2", server: 173.245.58.52, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /lib/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3", server: 8.35.211.227, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /my/special/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4", server: 8.35.211.122, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /thread/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1", server: 104.17.118.17, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /wiki/novel/message/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2", server: 8.39.125.224, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /zh/show/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3", server: 104.17.111.231, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /vod/cn/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4", server: 104.19.54.83, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /movie/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1", server: 91.193.58.94, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /season/ep/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2", server: 104.17.169.250, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /music/program/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3", server: 162.159.39.108, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /topic/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4", server: 104.16.254.90, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /detail/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1", server: 162.159.39.8, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /url/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2", server: 188.164.248.138, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /pay/groups/rank/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3", server: 198.41.209.183, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /tv/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4", server: 104.17.189.212, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /movies/category/version/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1", server: 108.162.198.181, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /travel/docs/ajax/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2", server: 91.193.59.229, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /project/stock/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3", server: 104.19.49.233, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /travel/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4", server: 104.17.144.152, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /novel/forum/upload/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1", server: 104.17.98.35, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /go.html/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2", server: 104.26.15.167, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /category/html/faq/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3", server: 104.17.106.169, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /redirect/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4", server: 198.41.208.190, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /music/dh/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1", server: 172.67.76.83, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /dl/reg/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2", server: 198.41.223.107, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /discount/services/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3", server: 198.41.208.6, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /file/show/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4", server: 104.19.32.255, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /f/share/topic/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1", server: 91.193.59.48, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /member/zip/task/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2", server: 104.17.182.102, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /study/forum/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3", server: 198.41.223.49, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /classify/service/activity/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4", server: 104.19.150.213, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /my/urls/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1", server: 91.193.58.143, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /gif/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2", server: 104.16.254.155, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /share/events/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3", server: 172.67.79.13, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /china/teacher/m/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4", server: 172.67.71.42, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /bt/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1", server: 91.193.58.85, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /resource/cp/dh/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2", server: 104.17.146.69, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /discuss/season/mag/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3", server: 104.18.33.122, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /page/movie/dload/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4", server: 104.17.188.15, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /magnet/directory/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1", server: 172.67.66.14, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /site/friends/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2", server: 172.67.70.69, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /soft/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3", server: 104.16.150.210, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /retrieve/topic/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4", server: 104.17.221.75, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /blogs/directory/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1", server: 172.67.71.214, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /teacher/group/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2", server: 8.35.211.143, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /pages/downloads/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3", server: 91.193.59.244, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /discuss/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4", server: 162.159.38.27, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /www/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1", server: 104.18.33.143, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /register/directory/ads/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2", server: 104.19.51.222, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /cart/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3", server: 172.66.3.93, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /chat/episode/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4", server: 104.17.113.111, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /share/book/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1", server: 188.164.248.55, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /group/channel/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2", server: 104.17.221.53, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /uploads/en/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3", server: 104.17.49.163, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /info/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4", server: 104.17.177.205, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /jumping/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1", server: 173.245.59.124, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /redirect.php/html/lessons/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2", server: 104.17.161.140, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /magnet/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3", server: 172.66.2.21, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /game/mall/v/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4", server: 162.159.39.47, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /activity/comics/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1", server: 172.66.2.75, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /china/pdf/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2", server: 162.159.38.200, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /vod/setting/static/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3", server: 172.67.74.253, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ajax/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4", server: 104.17.21.194, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /about/pictures/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1", server: 104.17.51.137, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /about/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2", server: 198.41.223.208, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /doc/urls/dl/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3", server: 198.41.223.180, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /news/doc/help/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4", server: 198.41.223.215, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /reg/pdf/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1", server: 104.17.177.183, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /page/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2", server: 91.193.58.226, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /share/html/cart/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3", server: 172.66.0.50, port: 2096, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /watch/url/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4", server: 104.19.144.17, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /stars/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1", server: 104.17.48.213, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /tag/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2", server: 198.41.223.83, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /downloads/library/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3", server: 198.41.223.133, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /mag/program/search/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4", server: 104.17.214.25, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /topic/file/film/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1", server: 8.39.125.72, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /config/shop/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2", server: 104.17.26.195, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /bd/movie/albums/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3", server: 173.245.59.158, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /club/product/site/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4", server: 172.67.77.171, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /favorite/season/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1", server: 198.41.223.77, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /event/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2", server: 104.17.114.213, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ep/archives/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3", server: 162.159.39.74, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /comic/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4", server: 172.66.2.93, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ajax/trade/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1", server: 104.17.124.191, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /contact/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2", server: 108.162.198.226, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /link/star/blog/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3", server: 91.193.59.174, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /gif/version/documents/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4", server: 104.17.156.232, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /res/novels/about/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1", server: 104.26.15.156, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /zh-tw/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2", server: 172.67.69.7, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /photos/seller/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3", server: 104.16.152.55, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /discuss/tag/episode/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4", server: 104.16.251.200, port: 2083, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /static/streaming/my/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1", server: 104.17.167.193, port: 2087, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /company/go/forums/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2", server: 104.19.34.84, port: 443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /about/courses/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXAQYfUgJbGAVTAhcGAgAPG0cTC19AFggKGQwDSw==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3", server: 104.17.163.49, port: 8443, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /doujin/events/directory/video/TRYXT0lSFQgPRAoAD14BFh4QWEtVRA9MXVJGCxEJSUBdFwlaAhZPFElWREFaWBcHRhcWUQBXS05IBApcSl0SEx9EUVxCF14CW1FBDBsGDwoDBVFWShgMGgMAFBocFBFCQkNGCwdeDAEJHg==, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4", server: 104.26.0.139, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /ajax/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFXDQcfVAZNBwFaGAgFBxABFRUMFlkWDgMCFQBN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1", server: 104.17.23.173, port: 2053, type: vless, uuid: 64c69772-7ecd-4422-806a-07d13f931c0c, tls: true, skip-cert-verify: true, servername: emam-zamman1.nova-728119.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /map/video/TRYXT0lSFQgPRAoAD14BFh4QRVdDQg9MXVJGCxFfDB0AVwBNBwFXGAgCARABFRUMFlkWDgMCFQhN, headers: {Host: emam-zamman1.nova-728119.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -141,106 +141,106 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -248,212 +248,212 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -461,106 +461,106 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -584,106 +584,106 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -695,106 +695,106 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا emam-zamman1.nova-728119.workers.dev:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.219.64:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.0:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.18.33.146:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.17.115:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.109.174:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.46:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.33.103:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.106:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.184.104:443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.22:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.74:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.114.140:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.58.121:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.247.15:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.227:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.44.50:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.18.37:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.138:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.221:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.152:443 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.89:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 104.19.51.249:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.163.124:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.108.26:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.2.115:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 162.159.46.41:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 8.39.125.43:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.103.114:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.171.78:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.154:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.68.190:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.246.194:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.114:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.41.66:443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.63.207:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.153.104:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.66.146:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.174.194:443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.245.93:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.0:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.151.91:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.16.247.131:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.157.249:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.246:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.16.10:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.155.194:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.65:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.69:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.127:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.183.128:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.33.187:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.241.152:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.59.190:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.32.54:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.146.172:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.153.192:2053 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.59.19:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.105.102:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 173.245.58.97:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.223.241:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.220:2096 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.86:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.36.4:443 [VLESS] ·S1
-      - سرویس رایگان نوا 188.164.248.229:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 188.164.248.21:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.189.246:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.38.133:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.240.128:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 91.193.58.142:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 162.159.39.100:2087 [VLESS] ·S2
-      - سرویس رایگان نوا 91.193.58.27:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.101.194:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.120.132:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 198.41.208.228:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.188.25:443 [VLESS] ·S1
-      - سرویس رایگان نوا 108.162.198.56:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 8.35.211.124:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.145.150:443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.183.117:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.2.69:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.51.198:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 173.245.59.145:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 172.66.1.87:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 108.162.198.165:2087 [VLESS] ·S1
-      - سرویس رایگان نوا 172.66.3.188:8443 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.104.221:8443 [VLESS] ·S3
-      - سرویس رایگان نوا 104.17.149.164:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.166.58:2083 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.28.153:2083 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.144.68:2053 [VLESS] ·S1
-      - سرویس رایگان نوا 104.16.156.168:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.16.243.107:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 162.159.38.152:8443 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.21.230:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.19.146.202:2087 [VLESS] ·S3
-      - سرویس رایگان نوا 104.19.35.90:2096 [VLESS] ·S1
-      - سرویس رایگان نوا 104.17.178.63:2053 [VLESS] ·S2
-      - سرویس رایگان نوا 104.17.49.202:2096 [VLESS] ·S3
-      - سرویس رایگان نوا 198.41.209.231:2083 [VLESS] ·S1
-      - سرویس رایگان نوا 172.67.76.22:443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.39.125.155:443 [VLESS] ·S2
+      - سرویس رایگان نوا 188.164.248.126:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.145.112:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.105:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 173.245.58.52:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 8.35.211.227:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 8.35.211.122:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.118.17:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.39.125.224:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.111.231:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.54.83:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.94:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.169.250:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.108:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.254.90:443 [VLESS] ·S4
+      - سرویس رایگان نوا 162.159.39.8:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 188.164.248.138:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.209.183:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.189.212:443 [VLESS] ·S4
+      - سرویس رایگان نوا 108.162.198.181:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.59.229:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.19.49.233:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.144.152:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.98.35:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.26.15.167:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.106.169:443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.208.190:443 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.76.83:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.107:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.208.6:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.32.255:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.59.48:8443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.182.102:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.49:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.150.213:443 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.143:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.16.254.155:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.79.13:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.71.42:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 91.193.58.85:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.146.69:2096 [VLESS] ·S2
+      - سرویس رایگان نوا 104.18.33.122:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.188.15:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.66.14:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.70.69:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.150.210:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.221.75:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 172.67.71.214:443 [VLESS] ·S1
+      - سرویس رایگان نوا 8.35.211.143:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.244:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.38.27:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.18.33.143:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.51.222:2087 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.3.93:2053 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.113.111:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 188.164.248.55:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.221.53:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.49.163:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.177.205:2096 [VLESS] ·S4
+      - سرویس رایگان نوا 173.245.59.124:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.161.140:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.2.21:2083 [VLESS] ·S3
+      - سرویس رایگان نوا 162.159.39.47:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 172.66.2.75:2096 [VLESS] ·S1
+      - سرویس رایگان نوا 162.159.38.200:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.67.74.253:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.21.194:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.51.137:443 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.208:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.180:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 198.41.223.215:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.177.183:443 [VLESS] ·S1
+      - سرویس رایگان نوا 91.193.58.226:443 [VLESS] ·S2
+      - سرویس رایگان نوا 172.66.0.50:2096 [VLESS] ·S3
+      - سرویس رایگان نوا 104.19.144.17:8443 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.48.213:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 198.41.223.83:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 198.41.223.133:443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.214.25:443 [VLESS] ·S4
+      - سرویس رایگان نوا 8.39.125.72:443 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.26.195:8443 [VLESS] ·S2
+      - سرویس رایگان نوا 173.245.59.158:443 [VLESS] ·S3
+      - سرویس رایگان نوا 172.67.77.171:443 [VLESS] ·S4
+      - سرویس رایگان نوا 198.41.223.77:2083 [VLESS] ·S1
+      - سرویس رایگان نوا 104.17.114.213:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 162.159.39.74:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 172.66.2.93:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.124.191:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 108.162.198.226:2083 [VLESS] ·S2
+      - سرویس رایگان نوا 91.193.59.174:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.17.156.232:2087 [VLESS] ·S4
+      - سرویس رایگان نوا 104.26.15.156:2053 [VLESS] ·S1
+      - سرویس رایگان نوا 172.67.69.7:2053 [VLESS] ·S2
+      - سرویس رایگان نوا 104.16.152.55:2087 [VLESS] ·S3
+      - سرویس رایگان نوا 104.16.251.200:2083 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.167.193:2087 [VLESS] ·S1
+      - سرویس رایگان نوا 104.19.34.84:443 [VLESS] ·S2
+      - سرویس رایگان نوا 104.17.163.49:8443 [VLESS] ·S3
+      - سرویس رایگان نوا 104.26.0.139:2053 [VLESS] ·S4
+      - سرویس رایگان نوا 104.17.23.173:2053 [VLESS] ·S1
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
